@@ -1,15 +1,14 @@
+# Site settings
+title: Your awesome title
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
 markdown: kramdown
-highlighter: pygments
-relative_permalinks: false
-permalink: /news/:year/:month/:day/:title/
-excerpt_separator: ""
-
-gauges_id: 503c5af6613f5d0f19000027
-google_analytics_id: UA-50755011-1
-
-repository: https://github.com/jekyll/jekyll
-help_url: https://github.com/jekyll/jekyll-help
-
-collections:
-  docs:
-    output: true
