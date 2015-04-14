@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 不选择开始，就不会有开始
+title: ljnchn
 ---
 
 <div class="posts">
@@ -15,7 +15,7 @@ title: 不选择开始，就不会有开始
     <span class="post-date">{{ post.date | date_to_string }}</span>
     {% if post.content contains "<!-- more -->" %}
     {{ post.content | split:"<!-- more -->" | first %}}
-    <h4><a href="{{ post.url }}" title="Read more...">Read more...</a></h4>
+    <h4 style="text-algin:right;"><a href="{{ post.url }}" title="Read more...">Read more...</a></h4>
     {% else %}
     {{ post.content }}
     {% endif %}
