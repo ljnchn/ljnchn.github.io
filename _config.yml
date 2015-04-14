@@ -13,7 +13,7 @@ title:               'ljnchn'
 tagline:             'I can do beter.'
 description:         '何处是归途。'
 url:                 http://ljnchn.github.io
-baseurl:             /
+baseurl:             
 paginate:            5
 
 # About/contact
