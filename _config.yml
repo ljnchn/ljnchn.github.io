@@ -1,6 +1,6 @@
 # Dependencies
 markdown:            kramdown
-highlighter:         pygments
+highlighter:         rouge
 
 # Permalinks
 #
@@ -11,7 +11,7 @@ permalink:           /:categories/:year/:month/:day/:title
 title:               'ljnchn'
 tagline:             'I can do beter.'
 description:         '何处是归途。'
-url:                 http://ljnchn.github.io
+url:                 http://blog.ljnchn.com
 baseurl:             /
 paginate:            5
 
