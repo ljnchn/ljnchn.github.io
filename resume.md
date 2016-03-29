@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Resume
+published: false
 ---
 
 ##联系方式
