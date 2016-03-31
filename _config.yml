@@ -1,7 +1,8 @@
 # Dependencies
 markdown:            kramdown
-highlighter:         rouge
-
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
