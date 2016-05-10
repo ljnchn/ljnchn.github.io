@@ -6,7 +6,8 @@ title: Javascript 中数组元素的排序及洗牌算法的实现
 > 这里利用了一个 sort 函数进行排序
 
 ### 正向排序
-```
+
+``` javascript
 var numberArray = [2,1,3];
 numberArray.sort(function(a, b){
         return a-b;
@@ -16,6 +17,7 @@ numberArray.sort(function(a, b){
 ```
 
 ### 逆向排序
+
 ```
 var numberArray = [2,1,3];
 numberArray.sort(function(a, b){
@@ -24,7 +26,9 @@ numberArray.sort(function(a, b){
 ); 
 //[3,2,1]
 ```
+
 ### 随机排序（洗牌）
+
 ```
 var numberArray = [2,1,3];
 numberArray.sort(function(){
