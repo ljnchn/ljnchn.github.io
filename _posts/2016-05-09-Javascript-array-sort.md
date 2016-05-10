@@ -18,7 +18,7 @@ numberArray.sort(function(a, b){
 
 ### 逆向排序
 
-```
+``` javascript
 var numberArray = [2,1,3];
 numberArray.sort(function(a, b){
         return b-a;
@@ -29,7 +29,7 @@ numberArray.sort(function(a, b){
 
 ### 随机排序（洗牌）
 
-```
+``` javascript
 var numberArray = [2,1,3];
 numberArray.sort(function(){
         return Math.random()-0.5;
