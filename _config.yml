@@ -16,6 +16,9 @@ url:                 http://blog.ljnchn.com
 baseurl:             /
 paginate:            5
 
+disqus:
+  id: ljnchn
+
 # About/contact
 author:
   name:              ljnchn
