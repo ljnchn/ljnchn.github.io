@@ -1,5 +1,5 @@
 ---
-date: 2016-05-013 14:00
+date: 2016-05-13 14:00
 layout: post
 status: public
 title: Vue.js 的简单介绍
