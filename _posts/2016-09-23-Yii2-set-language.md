@@ -13,7 +13,7 @@ tags:
 
 ### 切换语言的方法，GET 方式接收需要切换的语言
 
-``` php
+```php?start_inline=1
 public function actionLanguage()
 {
     $lang = \Yii::$app->request->get('lang');  
@@ -33,7 +33,7 @@ public function actionLanguage()
 
 ### 页面加载前，根据 cookie 设置语言
 
-``` php
+```php?start_inline=1
 $config = [
     'on beforeAction' => function($event) {
         $cookie = \Yii::$app->request->cookies;
