@@ -7,8 +7,6 @@ tags:
 - Yii2
 ---
 
-# Yii2 的多语言切换设置
-
 > Yii2 的多语言设置。我是通过判断 cookie 实现的，每次加载页面前，根据 cookie 设置语言
 > 如果有 BaseController 的话，在里面的 init 方法写相关的逻辑最好。
 > 如果没有，只能在配置文件的 on beforeAction 写了。
