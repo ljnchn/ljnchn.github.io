@@ -12,7 +12,7 @@ permalink:           /:categories/:year/:month/:day/:title
 title:               'ljnchn'
 tagline:             'I can do beter.'
 description:         '何处是归途。'
-url:                 http://blog.ljnchn.com
+url:                 https://ljnchn.github.io/
 baseurl:             /
 paginate:            5
 
