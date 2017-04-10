@@ -6,14 +6,14 @@ kramdown:
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           /:categories/:year/:month/:day/:title 
+permalink:           /:categories/:year/:month/:day/:title
 
 # Setup
 title:               'ljnchn'
 tagline:             'I can do beter.'
 description:         '何处是归途。'
 url:                 https://ljnchn.github.io/
-baseurl:             /
+baseurl:             https://ljnchn.github.io/
 paginate:            5
 
 disqus:
@@ -24,4 +24,3 @@ author:
   name:              ljnchn
   url:               https://twitter.com/ljnchn
   email:             uplees@gmail.com
-
